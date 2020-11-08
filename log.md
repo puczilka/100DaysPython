@@ -1,8 +1,8 @@
 # Day 1: Installing Python
 **Completion Date:** 
-
+08.11.2020
 **Learned:** 
-
+Printing strings and numbers. Set up a github repo, refreshed version control methods and editing files from commandline.
 # Day 2: Printing in Python
 **Completion Date:** 
 
