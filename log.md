@@ -2,17 +2,18 @@
 **Completion Date:** 
 08.11.2020
 **Learned:** 
-Printing strings and numbers. Set up a github repo, refreshed version control methods and editing files from commandline.
+Set up a github repo, refreshed version control methods and editing files from commandline.
 # Day 2: Printing in Python
 **Completion Date:** 
-
+15.11.2020
 **Learned:** 
-
+Printing strings and numbers.
 # Day 3: Operators
 **Completion Date:** 
-
+15.11.2020
 **Learned:** 
-
+I learned basic numerical operations in python, string formatting (inserting newline and tab) and relational and boolean operators.
+Interesting thing: Printing strings enclosed in a triple quote for multiline strings.
 # Day 4: Variables & Variable Types
 **Completion Date:** 
 
