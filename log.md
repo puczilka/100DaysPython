@@ -30,9 +30,10 @@ Interesting thing: Printing strings enclosed in a triple quote for multiline str
 **Learned:** 
 
 # Day 7: Ranges
-**Completion Date:** 
+**Completion Date:** 21.11.2020
 
-**Learned:** 
+**Learned:** Today I have learned how to use range function. I noted that I need to wrap range in list function to be able to print it. I also discovered that I can
+produce a range in descending order by using a negative number as step. I have also created a simple program to check if a given number is divisible by another with range function. It creates a range of numbers starting at a given value and incrementing by this number until 10000000. If a number in question is in a given range then it means that it is divisible.
 
 # Day 8: Tuples
 **Completion Date:** 
