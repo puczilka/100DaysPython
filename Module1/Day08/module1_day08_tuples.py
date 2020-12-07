@@ -17,7 +17,7 @@ good = ("Bandit", "Frog", "Snowman")
 type(good)
 print(good)
 # Since tuples are immutable, they cannot be changed in the same method as lists.
-theme[0] = "West"
+#theme[0] = "West"
 # In order to change an item in a tuple, a new tuple needs to be created.
 return_trip = "West", theme[1], theme[2]
 print(return_trip)

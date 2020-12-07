@@ -16,19 +16,19 @@ I learned basic numerical operations in python, string formatting (inserting new
 Interesting thing: Printing strings enclosed in a triple quote for multiline strings.
 # Day 4: Variables & Variable Types
 **Completion Date:** 
-
+28.11.2020
 **Learned:** 
-
+creating variables, checking variable type, changing variable assignment
 # Day 5: String Formatting
-**Completion Date:** 
+**Completion Date:** 28.11.2020
 
-**Learned:** 
+**Learned:** String formatting, adjusting string length and number precision, adding padding.
 
 # Day 6: Lists
 **Completion Date:** 
-
+30.11.2020
 **Learned:** 
-
+Learned about the lists, adding new items to the lists, list comprehension - creating a new list while transforming the existing one.
 # Day 7: Ranges
 **Completion Date:** 21.11.2020
 
@@ -37,19 +37,19 @@ produce a range in descending order by using a negative number as step. I have a
 
 # Day 8: Tuples
 **Completion Date:** 
-
+03.12.2020
 **Learned:** 
-
+Tuples are immutable, so useful for storing data that's not meant to be changed. How to create tuples, multiple variable assignment of tuples, changing a list inside of the tuple.
 # Day 9: Index and Slicing
 **Completion Date:** 
-
+03.12.2020
 **Learned:** 
-
+Learned about index and slicing.
 # Day 10: If/Else
 **Completion Date:** 
-
+07.12.2020
 **Learned:** 
-
+Controlling the flow of the programs with conditional statements in python, including nested statements and ternary operators (one-line ifelse statements).
 # Day 11: Augmented Assignments
 **Completion Date:** 
 
