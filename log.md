@@ -52,29 +52,29 @@ Learned about index and slicing.
 Controlling the flow of the programs with conditional statements in python, including nested statements and ternary operators (one-line ifelse statements).
 # Day 11: Augmented Assignments
 **Completion Date:** 
-
+13.12.2020
 **Learned:** 
-
+Augmented assignments, which return the same value multiplied/divided etc by a supplied value. It supports all types of arithmetic operations and can be applied to strings.
 # Day 12: For/While Loops
 **Completion Date:** 
-
+27.12.2020
 **Learned:** 
-
+For and while loops, nested while loops (multiplication table).
 # Day 13: Continue/Break
 **Completion Date:** 
-
+27.12.2020
 **Learned:** 
-
+Need to study more continue and break clause
 # Day 14: Module 1 Challenge
 **Completion Date:** 
-
+28.12.2020
 **Learned:** 
-
+For loops, nested for loops, checking variable type.
 # Day 15: Dictionaries
 **Completion Date:** 
-
+28.12.2020
 **Learned:** 
-
+How to create and access keys and values in a dictionary. I used get and setdefault methods.
 # Day 16: Sets
 **Completion Date:** 
 
