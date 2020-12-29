@@ -82,9 +82,9 @@ How to create and access keys and values in a dictionary. I used get and setdefa
 
 # Day 17: User Input
 **Completion Date:** 
-
+29.12.2020
 **Learned:** 
-
+Getting user input
 # Day 18: Packages
 **Completion Date:** 
 
