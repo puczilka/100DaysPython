@@ -87,49 +87,49 @@ How to create and access keys and values in a dictionary. I used get and setdefa
 Getting user input
 # Day 18: Packages
 **Completion Date:** 
-
+01.01.2021
 **Learned:** 
-
+Familiarised myself with python libraries: time, datetime, os, turtle, random, webbrowser, dir function to retrieve all built-in functions
 # Day 19: File Input/Output
 **Completion Date:** 
-
+01.01.2021
 **Learned:** 
-
+Opening, reading, writing to and appending a file using os module.
 # Day 20: Functions
 **Completion Date:** 
-
+01.01.2021
 **Learned:** 
-
+Docstrings and writing functions
 # Day 21: Pytest
 **Completion Date:** 
-
+01.01.2021
 **Learned:** 
-
+Testing functions with pytest. assert result and looking for errors with pytest.raises error
 # Day 22: Recursive Functions
 **Completion Date:** 
 
 **Learned:** 
-
+Study more! Fibonacci sequence
 # Day 23: Lambdas
 **Completion Date:** 
-
+01.01.2021
 **Learned:** 
-
+Learnt to compare lambda functions vs for loops
 # Day 24: Object-Oriented Programming
 **Completion Date:** 
-
+03.01.2021
 **Learned:** 
-
+Decorators, pie notation, classes
 # Day 25: List Comprehensions
 **Completion Date:** 
-
+07.01.2021
 **Learned:** 
-
+How to shorten the for loops
 # Day 26: Map, Filter, and Zip
 **Completion Date:** 
-
+09.01.2021
 **Learned:** 
-
+How to use map function to apply a function to items in an iterable object. Filter function to apply fnction to items in an iterable object and return items that return True response. Zip function to compile multiple iterable objects (multiple lists to a list of tuples)
 # Day 27: Logging
 **Completion Date:** 
 
