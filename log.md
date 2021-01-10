@@ -132,9 +132,9 @@ How to shorten the for loops
 How to use map function to apply a function to items in an iterable object. Filter function to apply fnction to items in an iterable object and return items that return True response. Zip function to compile multiple iterable objects (multiple lists to a list of tuples)
 # Day 27: Logging
 **Completion Date:** 
-
+09.01.2021
 **Learned:** 
-
+About setting up log messages and reviewing log files, log info, debug, warning with exception handling.
 # Day 28: Module 2 Challenge
 **Completion Date:** 
 

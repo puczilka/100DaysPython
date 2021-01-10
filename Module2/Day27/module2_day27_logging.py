@@ -26,51 +26,51 @@ logger.warning("This is a custom warning message.")
 # creating the logger. Therefore, since an `info()` message is being written and "INFO" is a lower level than "WARNING",
 # the message is not recorded.
 print(logger.level)
-log_level = [("NOTSET", 0), ("DEBUG", 10), ("INFO", 20), ("WARNING", 30), ("ERROR", 40), ("CRITICAL", 50)]
-
-# The logger can be created with a specific level designation. The lower the level, the more verbose the logging. It is
-# important ot note that overly verbose logs are often difficult to understand. Is it easier to gain spending insights
-# by looking at the raw data in a table or can the insights be understood more efficiently if the data is presented in a
-# time series chart? Just like deriving insights from data, the logs should be focused and direct.
+# #log_level = [("NOTSET", 0), ("DEBUG", 10), ("INFO", 20), ("WARNING", 30), ("ERROR", 40), ("CRITICAL", 50)]
+#
+# # The logger can be created with a specific level designation. The lower the level, the more verbose the logging. It is
+# # important ot note that overly verbose logs are often difficult to understand. Is it easier to gain spending insights
+# # by looking at the raw data in a table or can the insights be understood more efficiently if the data is presented in a
+# # time series chart? Just like deriving insights from data, the logs should be focused and direct.
 logger.level = "DEBUG"
 logger.info("This is a custom info message.")
 logger.warning("This is a custom warning message.")
-
-# The `format` option is used to customize the default settings of the log message. This additional functionality
-# improves the readability and effectiveness of the log files. After a logger is created, there are only certain
-# attributes that can be changed, like the logger level. Therefore, it's important to plan the needs of the logger
-# before creating the object. If changes need to be made, the object must first be destroyed.
-import logging
-import os
-
-# os.chdir(".\\Module2\\Day27")
-
+#
+# # The `format` option is used to customize the default settings of the log message. This additional functionality
+# # improves the readability and effectiveness of the log files. After a logger is created, there are only certain
+# # attributes that can be changed, like the logger level. Therefore, it's important to plan the needs of the logger
+# # before creating the object. If changes need to be made, the object must first be destroyed.
+# import logging
+# import os
+#
+# # os.chdir(".\\Module2\\Day27")
+#
 log_formatter = "%(levelname)s: %(asctime)s - %(message)s"
 logging.basicConfig(filename="module2_day27_logging.log",
-                    level=logging.DEBUG,
-                    format=log_formatter)
+                     level=logging.DEBUG,
+                     format=log_formatter)
 logger = logging.getLogger()
 logger.info("This is a custom info message.")
 logger.warning("This is a custom warning message.")
-
-# By default, the log file is created in append mode. This can be changed with the `filemode` option.
-import logging
-import os
-
-# os.chdir(".\\Module2\\Day27")
-
-log_formatter = "%(levelname)s: %(asctime)s - %(message)s"
-logging.basicConfig(filename="module2_day27_logging.log",
-                    level=logging.DEBUG,
-                    format=log_formatter,
-                    filemode="w")
-logger = logging.getLogger()
-logger.debug("This is a custom debug message.")
-logger.info("This is a custom info message.")
-logger.warning("This is a custom warning message.")
-logger.error("This is a custom error message.")
-logger.critical("This is a custom critical message.")
-
+#
+# # By default, the log file is created in append mode. This can be changed with the `filemode` option.
+# import logging
+# import os
+#
+# # os.chdir(".\\Module2\\Day27")
+#
+#log_formatter = "%(levelname)s: %(asctime)s - %(message)s"
+#logging.basicConfig(filename="module2_day27_logging.log",
+#                   level=logging.DEBUG,
+#                   #format=log_formatter,
+#                    filemode="w")
+#logger = logging.getLogger()
+#logger.debug("This is a custom debug message.")
+#logger.info("This is a custom info message.")
+#logger.warning("This is a custom warning message.")
+#logger.error("This is a custom error message.")
+#logger.critical("This is a custom critical message.")
+#
 # Logging is critical for creating functions. Through using exception handling along with a robust logger, common errors
 # can be explicitly written to the log file for review when the program breaks. The program executes the code within the
 # `try` block first. If there are any errors, the `except` blocks are reviewed. Specific error messages are associated
@@ -79,7 +79,7 @@ logger.critical("This is a custom critical message.")
 import logging
 import os
 
-# os.chdir(".\\Module2\\Day27")
+os.chdir(".\\Module2\\Day27")
 
 log_formatter = "%(levelname)s: %(asctime)s - %(message)s"
 logging.basicConfig(filename="module2_day27_logging.log",
