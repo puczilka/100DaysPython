@@ -137,9 +137,9 @@ How to use map function to apply a function to items in an iterable object. Filt
 About setting up log messages and reviewing log files, log info, debug, warning with exception handling.
 # Day 28: Module 2 Challenge
 **Completion Date:** 
-
+14.01.2021
 **Learned:** 
-
+Working on the solution
 # Day 29: File Manipulations
 **Completion Date:** 
 
